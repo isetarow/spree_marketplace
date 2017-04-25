@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '2.0.0.beta'
   s.summary     = 'Enable Spree to work as a Marketplace.'
   s.description = 'By extending Spree Drop Ship to enable supplier payments Spree works as a Marketplace.'
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.2.2'
 
   s.author    = 'Jeff Dutil'
   s.email     = 'jdutil@burlingtonwebapps.com'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'stripe'
-  s.add_dependency 'spree_core', '~> 3.0.0'
+  s.add_dependency 'spree_core', '~> 3.2.1'
   s.add_dependency 'spree_drop_ship'
 
   s.add_development_dependency 'capybara', '~> 2.2'
